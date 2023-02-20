@@ -14,7 +14,7 @@ def RotateErr(v1,v2):
     return abs(v1-v2)
 
 if __name__ == '__main__':
-    gt_path = 'data/Cataract/Rotate_Index_Standard/UC'
+    gt_path = 'data/Cataract_Test/Rotate_Index_Standard/UC'
     pred_path = 'output/predict/Txt/'
     save_result = 'output/predict/RE_result.txt'
     result_file = open(save_result, 'w')
