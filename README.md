@@ -63,10 +63,10 @@ The trained weights of the R2D2 and our model are in the checkpoints folder and 
 
   ``` $ python test_FPS.py ```
 
-### 本文其它对比模型：
-SIFT：cv2.xfeatures2d.SIFT_create()   基于opencv-contrib-python-3.4.2.16 库
-SURF：cv2.xfeatures2d.SURF_create()   基于opencv-contrib-python-3.4.2.16 库
-SuperPoint：https://github.com/magicleap/SuperPointPretrainedNetwork
-D2-Net：https://github.com/mihaidusmanu/d2-net
-R2D2：https://github.com/naver/r2d2
+### 本文对比模型：
+- SIFT：cv2.xfeatures2d.SIFT_create()   基于opencv-contrib-python-3.4.2.16 库
+- SURF：cv2.xfeatures2d.SURF_create()   基于opencv-contrib-python-3.4.2.16 库
+- SuperPoint：https://github.com/magicleap/SuperPointPretrainedNetwork
+- D2-Net：https://github.com/mihaidusmanu/d2-net
+- R2D2：https://github.com/naver/r2d2
 
